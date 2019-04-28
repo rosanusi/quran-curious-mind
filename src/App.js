@@ -32,7 +32,7 @@ export default class App extends Component {
 
 
   async getChapters(){
-    let api = "http://api.alquran.cloud/v1/surah";
+    let api = "https://api.alquran.cloud/v1/surah";
 
     await this.fetchAsync(api)
 
@@ -55,7 +55,7 @@ export default class App extends Component {
 
     let chapter = chapterNumber + '/'
     let edition = "en.yusufali"
-    let url = "http://api.alquran.cloud/v1/surah/"
+    let url = "https://api.alquran.cloud/v1/surah/"
     let api = url + chapter + edition
 
     this.fetchAsync(api)
