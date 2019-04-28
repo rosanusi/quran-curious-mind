@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Space+Mono");
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond:400,400i");
+body {
+  background-color: #FFFDF9;
+  font-family: "EB Garamond", serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  color: #15191C; }
+
+.qrn-container {
+  max-width: calc(1200px + 4em);
+  padding: 2em;
+  margin: 0 auto; }
+
+.qrn-header {
+  font-family: "Space Mono", monospace;
+  font-size: 1em; }
+  .qrn-header .qrn-header_link {
+    color: #15191C;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+    .qrn-header .qrn-header_link:hover {
+      color: #DF3A37; }
+
+.qrn-chapters {
+  margin-top: 0;
+  padding: 0; }
+  .qrn-chapters .chapterBlock {
+    list-style: none;
+    display: inline-block;
+    line-height: 1.7; }
+    .qrn-chapters .chapterBlock .chapterName {
+      font-size: 1.925em;
+      display: inline-block; }
+    .qrn-chapters .chapterBlock .chapterDetails .chapterNumber {
+      font-size: .9em;
+      font-family: "Space Mono", monospace;
+      margin-right: 4px;
+      display: inline-block;
+      padding-right: 8px;
+      padding-left: 4px;
+      color: #DF3A37; }
+    .qrn-chapters .chapterBlock .chapterDetails .chapterTitle {
+      display: none; }
+    .qrn-chapters .chapterBlock .divider {
+      display: inline-block;
+      width: 2.4em;
+      margin-bottom: 8px;
+      border-top: 1px solid #bcbcbc; }
+    .qrn-chapters .chapterBlock:hover .chapterName.active {
+      cursor: pointer;
+      font-style: italic;
+      border-bottom: 1px solid #DF3A37;
+      line-height: 1;
+      color: #DF3A37; }
+
+.qrn-verses {
+  max-width: 45em; }
+  .qrn-verses .qrn-verse {
+    margin-bottom: .9em; }
+    .qrn-verses .qrn-verse .qrn-verse_text {
+      font-size: 1.6em;
+      line-height: 1.6; }
+      .qrn-verses .qrn-verse .qrn-verse_text::selection {
+        color: #DF3A37;
+        background-color: #fff9f2; }
+    .qrn-verses .qrn-verse .qrn-verse_number {
+      font-size: .9em;
+      font-family: "Space Mono", monospace;
+      margin-right: 4px;
+      display: inline-block;
+      padding-right: 8px;
+      padding-left: 4px;
+      color: #DF3A37; }
+      .qrn-verses .qrn-verse .qrn-verse_number::selection {
+        color: #DF3A37;
+        background-color: #fff9f2; }
+
+/*# sourceMappingURL=main.css.map */
